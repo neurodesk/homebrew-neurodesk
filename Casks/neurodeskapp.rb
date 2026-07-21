@@ -6,7 +6,7 @@ cask "neurodeskapp" do
 
   url "https://github.com/NeuroDesk/neurodesk-app/releases/download/v#{version}/NeurodeskApp-Setup-macOS-#{arch}.dmg"
   name "NeurodeskApp"
-  desc "Neurodesk desktop application for neuroscience computing"
+  desc "Desktop application for neuroscience computing"
   homepage "https://neurodesk.org/"
 
   depends_on macos: ">= :catalina"

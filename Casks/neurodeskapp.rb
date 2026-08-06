@@ -1,8 +1,8 @@
 cask "neurodeskapp" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.15.0"
-  sha256 arm: "5e194e7d7393f1ad8820240c5bf70e74130eb3343a3a1c2fe40dbda8970e0c6f", intel: "a14ef0621960b1919ba66be42515c116caa060a8b75fa92fc4ad9fb4579f18f1"
+  version "2.0.0"
+  sha256 arm: "5acaaf0ac4ebb02474739db728780e895aebf6a31171edbd8b0ec018b4354741", intel: "d79f010e56576d6229e5f3328c610cd7a912f3194da5a3c77bf416fa37410fc1"
 
   url "https://github.com/NeuroDesk/neurodesk-app/releases/download/v#{version}/NeurodeskApp-Setup-macOS-#{arch}.dmg"
   name "NeurodeskApp"
